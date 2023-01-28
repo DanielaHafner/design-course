@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    box-sizing: content-box;
 }
 
 body {
@@ -104,7 +105,6 @@ article {
     .animalbox {
         flex-direction: row;
         gap: 4em;
-        width: 77rem;
         height: 22rem;
         transform: translateY(4.6rem);
     }
@@ -121,7 +121,7 @@ article {
     }
 
     .box {
-        width: 65rem;
+        width: 33.3%;
         height: 19rem;
     }
 
@@ -171,16 +171,22 @@ article {
     .pictos, .hero {
         max-width: 1220px;
         margin: auto;
-        padding: 10rem;
-        padding-top: 13.9rem;
+        padding: 0 10rem;
     }
-    
+
     .hero {
         display: flex;
         flex-direction: row;
+        align-items: center;
+        margin-top: 5rem;
+    }
+
+    .hero-text p {
+        padding-right: 10rem;
     }
 
     .pictos {
+        margin-top: 5rem;
         gap: 13rem;
     }
 
@@ -188,14 +194,27 @@ article {
         padding-right: 0;
     }
 
+    .animalbox {
+        display: flex;
+        flex-direction: column;
+        width: 77rem;
+        height: calc(16.7rem * 2 + 7rem);
+        gap: 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .box {
         width: 21.8rem;
         height: 16.7rem;
+        flex-shrink: 0;
+        align-self: auto;
+        margin: 0;
     }
-
     .first {
         flex-basis: 0;
     }
+
 
     h1 {
         font-size: 5rem;
@@ -204,5 +223,4 @@ article {
     .subline {
         font-size: 2.4rem;
     }
-    
 }
