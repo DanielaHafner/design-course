@@ -179,5 +179,14 @@ article {
         flex-direction: row;
     }
 
+    .subline {
+        padding-right: 0;
+    }
+
+    .box {
+        width: 21.8rem;
+        height: 16.7rem;
+    }
+
     
 }
