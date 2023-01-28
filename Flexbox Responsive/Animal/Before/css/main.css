@@ -168,6 +168,12 @@ article {
 
 @media screen and (min-width: 1440px) {
 
+    .pictos, .hero {
+        max-width: 1220px;
+        margin: auto;
+        padding: 10rem;
+    }
+    
     .hero {
         display: flex;
         flex-direction: row;
