@@ -197,5 +197,12 @@ article {
         flex-basis: 0;
     }
 
+    h1 {
+        font-size: 5rem;
+    }
+
+    .subline {
+        font-size: 2.4rem;
+    }
     
 }
