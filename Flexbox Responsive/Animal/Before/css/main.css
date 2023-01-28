@@ -138,6 +138,7 @@ article {
 
     article {
         flex: 1;
+        text-align: left;
     }
 
     .first {
