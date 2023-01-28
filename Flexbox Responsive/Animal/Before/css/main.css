@@ -1,5 +1,6 @@
 html {
     font-size: 62.5%;
+    box-sizing: content-box;
 }
 
 body {
@@ -171,28 +172,41 @@ article {
     .pictos, .hero {
         max-width: 1220px;
         margin: auto;
-        padding: 10rem;
+        padding: 0 10rem;
+    }
+    .pictos {
+        margin-top: 10rem;
     }
 
     .hero {
         display: flex;
         flex-direction: row;
+        align-items: center;
     }
-<<<<<<< Updated upstream
+
+    .hero-text p {
+        padding-right: 10rem;
+    }
 
     .subline {
         padding-right: 0;
     }
 
+    .animalbox {
+        display: flex;
+        flex-direction: column;
+        height: calc(16.7rem * 2 + 7rem);
+        gap: 5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
     .box {
         width: 21.8rem;
         height: 16.7rem;
+        flex-shrink: 0;
+        align-self: auto;
+        margin: 0;
     }
 
-    
-=======
-    .animalbox {
-        display: flex;
-    }
->>>>>>> Stashed changes
 }
