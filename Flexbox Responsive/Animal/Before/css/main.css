@@ -172,11 +172,16 @@ article {
         max-width: 1220px;
         margin: auto;
         padding: 10rem;
+        padding-top: 13.9rem;
     }
     
     .hero {
         display: flex;
         flex-direction: row;
+    }
+
+    .pictos {
+        gap: 13rem;
     }
 
     .subline {
@@ -186,6 +191,10 @@ article {
     .box {
         width: 21.8rem;
         height: 16.7rem;
+    }
+
+    .first {
+        flex-basis: 0;
     }
 
     
