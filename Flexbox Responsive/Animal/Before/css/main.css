@@ -172,7 +172,7 @@ article {
     .pictos, .hero {
         max-width: 1220px;
         margin: auto;
-        padding: 10rem;
+        padding: 0 10rem;
     }
 
     .hero {
@@ -187,6 +187,7 @@ article {
     }
 
     .pictos {
+        margin-top: 5rem;
         gap: 13rem;
     }
 
