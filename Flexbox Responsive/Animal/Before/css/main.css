@@ -172,10 +172,7 @@ article {
     .pictos, .hero {
         max-width: 1220px;
         margin: auto;
-        padding: 0 10rem;
-    }
-    .pictos {
-        margin-top: 10rem;
+        padding: 10rem;
     }
 
     .hero {
@@ -186,6 +183,10 @@ article {
 
     .hero-text p {
         padding-right: 10rem;
+    }
+
+    .pictos {
+        gap: 13rem;
     }
 
     .subline {
@@ -208,5 +209,7 @@ article {
         align-self: auto;
         margin: 0;
     }
-
+    .first {
+        flex-basis: 0;
+    }
 }
