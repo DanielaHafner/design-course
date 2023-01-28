@@ -1,0 +1,133 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: black;
+    font-family: "Poppins";
+    color: white;
+}
+
+.wrapper {
+    margin: 137px 40px ;
+
+}
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 5.5rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 3.2rem;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+section {
+    margin: 1.8em 0;
+}
+
+.box {
+    margin-bottom: 2.8em;
+    padding: 5em;
+}
+
+.box1 p {
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.box1 {
+    background-color: #7000FF;
+    border-radius: 10px;
+}
+
+.box2 {
+    border-radius: 10px;
+    border: 3px solid #2E2E2E;
+    padding: 2em 5em ;
+}
+
+.box2 p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+.box2 .statistics {
+    display: inline-block;
+}
+
+svg {
+    vertical-align: top;
+    padding: 1em 1em 0 0;
+}
+
+.box3 {
+    padding: 0;
+    text-align: center;
+}
+
+.box3 p {
+    font-size: 1.4rem;
+    margin-top: 0.5em;
+    color: #878787;
+}
+
+.box3 button {
+    background-color: #7000FF;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font: 2rem "Poppins";
+    font-weight: bold;
+    padding: 1.4em 2.8em;
+    width: 100%;
+}
+
+.box3 span {
+    font-weight: bold;
+}
+
+@media screen and (min-width: 1024px) {
+
+    .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 3em;
+    }
+
+    .box3 {
+        flex-basis: 100%;
+    }
+    
+    .box2 {
+        display: flex;
+        flex: 1;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+
+    .box3 {
+        flex-basis: 0;
+    }
+
+    .box {
+        flex: 1;
+    }
+
+    .box2 {
+        flex: 2;
+    }
+}

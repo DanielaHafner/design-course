@@ -1,0 +1,172 @@
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background: white;
+    font-family: "Nunito";
+    color: black;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3.6em;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    font-size: 3.2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.8em;
+    text-align: center;
+}
+
+.wrapper-1 {
+    background: linear-gradient(119.54deg, #FFEBCD 8.57%, #FF8B72 91.34%);
+    margin: 0;
+    display: flex;
+}
+
+.hero {
+    padding: 3.4rem;
+}
+
+
+.animalbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box {
+    width: 30.5rem;
+    height: 23.3rem;
+    margin: 4rem 0;
+}
+
+.hide-mobile {
+    display: none;
+}
+
+.box:nth-of-type(1) {
+    background-image: url("../assets/horse.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+}
+
+.box:nth-of-type(2) {
+    background-image: url("../assets/frog.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+}
+
+.box:nth-of-type(3) {
+    background-image: url("../assets/dog.jpg");
+    background-size: cover;
+    background-position: center;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+}
+
+
+.pictos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 5.4rem;
+}
+
+svg {
+    margin-top: 9.1rem;
+    display: inline-block;
+    text-align: center;
+}
+
+@media screen and (min-width: 834px) {
+
+    
+
+    .animalbox {
+        flex-direction: row;
+        gap: 4em;
+        width: 77rem;
+        height: 22rem;
+        margin-top: 4.6rem;
+    }
+
+    .horse {
+        align-self: flex-end;
+    }
+    .frog {
+        align-self: flex-start;
+    }
+
+    .dog {
+        align-self: flex-end;
+    }
+
+    .box {
+        width: 65rem;
+        height: 19rem;
+    }
+
+    .hide-mobile {
+        display: block;
+    }
+
+    .pictos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    
+
+    article {
+        flex: 1;
+    }
+
+    .first {
+        flex-basis: 100%;
+    }
+
+    .subline {
+        text-align: left;
+        font-size: 1.8em;
+        padding-right: 26rem;
+    }
+
+    h1 {
+        font-size: 3.2rem;
+        text-align: left;
+    }
+
+    h2 {
+        text-align: left;
+    }
+
+    p {
+        text-align: left;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+
+    .hero {
+        display: flex;
+        flex-direction: row;
+    }
+
+    
+}
