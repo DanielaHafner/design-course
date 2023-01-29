@@ -181,6 +181,10 @@ article {
         margin-top: 5rem;
     }
 
+    .hero-text {
+        flex-grow: 1;
+    }
+
     .hero-text p {
         padding-right: 10rem;
     }
@@ -199,7 +203,7 @@ article {
         flex-direction: column;
         width: 77rem;
         height: calc(16.7rem * 2 + 7rem);
-        gap: 5rem;
+        gap: 3rem;
         flex-wrap: wrap;
         justify-content: center;
     }
